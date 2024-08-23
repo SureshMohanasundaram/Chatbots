@@ -40,8 +40,13 @@ async def main():
         with container:
             with st.form(key='my_form',clear_on_submit=True):
                 user_input = st.text_input("Query:",placeholder="e.g.Summarize the document",key='input')
+<<<<<<< HEAD
             
             
+=======
+                submit_button = st.form_submit_button(label="Send")
+
+>>>>>>> 11cffcd129c1fa3ad372301452a05678b2038cc2
     
 if __name__=="__main__":
     asyncio.run(main())
